@@ -57,6 +57,7 @@ Every Chief of Staff, and every other agent, is the same six steps: **1. Job** (
 | **Claude** | [`COS-Claude-Web/`](COS-Claude-Web/) | [`COS-Claude-Code/`](COS-Claude-Code/) |
 | **ChatGPT** | [`COS-ChatGPT-Web/`](COS-ChatGPT-Web/) | [`COS-ChatGPT-Codex/`](COS-ChatGPT-Codex/) |
 | **Gemini** | [`COS-Gemini-Web/`](COS-Gemini-Web/) | [`COS-Gemini-CLI/`](COS-Gemini-CLI/) |
+| **Microsoft Copilot** | [`COS-Copilot-Web/`](COS-Copilot-Web/) | see its README (GitHub Copilot CLI) |
 
 **Never used a terminal?** Pick your assistant's browser column. Setup takes about 5 minutes and you edit exactly one file, `YOUR-INFO.md`.
 
@@ -79,7 +80,9 @@ Home: a **Gem**. Gems do not remember across chats, so open loops live in `knowl
 
 **Gemini, terminal (Gemini CLI).** **Files** (all in `COS-Gemini-CLI/`): `GEMINI.md`, `config.yaml`, `voice.md`, `logbook/`, `triggers/`, `commands/`. Setup guide: [`COS-Gemini-CLI/README.md`](https://raw.githubusercontent.com/siddsdixit/personal-cos-teach/main/COS-Gemini-CLI/README.md).
 
-### Other assistants (Microsoft Copilot, Perplexity, etc.)
+**Microsoft Copilot, browser.** **Files** (all in `COS-Copilot-Web/`): [`YOUR-INFO.md`](https://raw.githubusercontent.com/siddsdixit/personal-cos-teach/main/COS-Copilot-Web/YOUR-INFO.md), [`custom-instructions.md`](https://raw.githubusercontent.com/siddsdixit/personal-cos-teach/main/COS-Copilot-Web/custom-instructions.md), [`knowledge-voice.md`](https://raw.githubusercontent.com/siddsdixit/personal-cos-teach/main/COS-Copilot-Web/knowledge-voice.md), [`knowledge-briefings.md`](https://raw.githubusercontent.com/siddsdixit/personal-cos-teach/main/COS-Copilot-Web/knowledge-briefings.md), [`knowledge-logbook.md`](https://raw.githubusercontent.com/siddsdixit/personal-cos-teach/main/COS-Copilot-Web/knowledge-logbook.md). Setup guide: [`COS-Copilot-Web/README.md`](https://raw.githubusercontent.com/siddsdixit/personal-cos-teach/main/COS-Copilot-Web/README.md). First ask: work/school account (Agent Builder, Path A) or personal account (Path B)?
+
+### Other assistants (Perplexity, etc.)
 
 Use the closest browser folder (any of the three). The pattern is the same: put `custom-instructions.md` where the tool takes standing instructions, upload or paste the other files as reference, and turn on memory if it exists. Say which parts the tool cannot do (for example no persistent memory) and use `knowledge-logbook.md` instead.
 
